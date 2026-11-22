@@ -15,6 +15,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        Attaquer("Dragon");
+        Attaquer("Gobelin");
+        Attaquer("Zombie");
     }
 }
