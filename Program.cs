@@ -19,4 +19,9 @@ class Program
         Attaquer("Gobelin");
         Attaquer("Zombie");
     }
+
+    static void Attaquer(string nomMonstre)
+    {
+        Console.WriteLine("Le héros attaque le " + nomMonstre + " !");
+    }
 }
